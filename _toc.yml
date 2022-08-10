@@ -1,0 +1,21 @@
+root: intro
+format: jb-book
+defaults:
+  numbered: true
+parts:
+- caption: Ejemplos discretos
+  numbered: true
+  chapters:
+  - file: Sudoku
+    sections:
+    - file: Modelo de programación matemática
+- caption: Búsqueda Tabú
+  numbered: true
+  chapters:
+  - file: Búsqueda Tabú
+  - file: Búsqueda Tabú aplicada al Sudoku
+- caption: Recocido Simulado
+  numbered: true
+  chapters:
+  - file: Recocido Simulado
+  - file: Recocido Simulado aplicado al Sudoku
