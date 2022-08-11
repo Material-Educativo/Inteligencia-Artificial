@@ -3,19 +3,30 @@ format: jb-book
 defaults:
   numbered: true
 parts:
-- caption: Ejemplos discretos
+- caption:
+  numbered: true
+  chapters:
+  - file: Introducción
+
+- caption: Capítulo uno
   numbered: true
   chapters:
   - file: Sudoku
-    sections:
-    - file: Modelo de programación matemática
-- caption: Búsqueda Tabú
+  - file: Modelo de programación matemática
+
+- caption: Capítulo dos
   numbered: true
   chapters:
   - file: Búsqueda Tabú
   - file: Búsqueda Tabú aplicada al Sudoku
-- caption: Recocido Simulado
+
+- caption: Capítulo tres
   numbered: true
   chapters:
   - file: Recocido Simulado
   - file: Recocido Simulado aplicado al Sudoku
+
+- caption: Referencias
+  numbered: true
+  chapters:
+  - file: Referencias
